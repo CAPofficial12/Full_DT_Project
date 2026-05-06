@@ -1471,7 +1471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1564,7 +1564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Bulgin_BX0034_1xAAA"
 			(at 166.37 108.966 90)
 			(hide yes)
 			(show_name no)
@@ -1679,7 +1679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 121.412 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -1759,7 +1759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1804,10 +1804,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "43c536d1-c968-484b-9fe2-f6a4d27ab570")
+			(uuid "43c536d1-c968-484b-9fe2-f6a4d27ab571")
 		)
 		(pin "2"
-			(uuid "52fb8c84-a937-41c6-8c55-584e742172a3")
+			(uuid "52fb8c84-a937-41c6-8c55-584e742172a4")
 		)
 		(instances
 			(project "Oscillator"
@@ -1840,7 +1840,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100u"
 			(at 130.81 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 134.62 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -1930,7 +1930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2N2222A:TO92254P470H750-3"
+		(property "Footprint" "Transisto:TO92254P470H750-3"
 			(at 118.11 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2171,7 +2171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2N2222A:TO92254P470H750-3"
+		(property "Footprint" "Transisto:TO92254P470H750-3"
 			(at 140.97 71.12 0)
 			(hide yes)
 			(show_name no)

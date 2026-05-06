@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "3dmodel") (type "KiCad") (uri "${KIPRJMOD}/Libraries/3dmodel") (options "") (descr ""))
+	(lib (name "Transisto") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Footprint/Transisto.pretty") (options "") (descr ""))
 )
