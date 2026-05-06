@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "First Design.kicad_pro",
+    "filename": "Oscillator.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -620,6 +620,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -627,18 +635,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "First Design.kicad_sch",
-        "name": "Root",
-        "uuid": "45a30dd7-d137-4e74-863e-ce898c7061cd"
+        "filename": "Oscillator.kicad_sch",
+        "name": "Oscillator",
+        "uuid": "975896d2-5edd-426e-976d-c26caad6758f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "BT1-2,#PWR1-2,D1-3,Q1-4,C1-3,R1-2",
     "variants": []
   },
   "sheets": [
     [
-      "45a30dd7-d137-4e74-863e-ce898c7061cd",
-      "Root"
+      "975896d2-5edd-426e-976d-c26caad6758f",
+      "Oscillator"
     ]
   ],
   "text_variables": {},
