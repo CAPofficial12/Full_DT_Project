@@ -4126,16 +4126,6 @@
 		)
 		(uuid "274f4ee2-79a3-414c-a0b9-11382b072686")
 	)
-	(text "SD Card Reader"
-		(exclude_from_sim no)
-		(at 191.135 102.235 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "448ca81b-6775-4a2c-b092-d2c656c909ca")
-	)
 	(text "Flash Memory"
 		(exclude_from_sim no)
 		(at 22.225 126.365 0)
@@ -4145,6 +4135,16 @@
 			)
 		)
 		(uuid "7a406ded-618e-488d-adf4-b66b5cb314e1")
+	)
+	(text "SD Card Reader"
+		(exclude_from_sim no)
+		(at 191.135 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bf0ccc5-7204-4ca2-9e4e-87fcbba28f41")
 	)
 	(text "USB Module (USB to UART)"
 		(exclude_from_sim no)
@@ -5839,16 +5839,6 @@
 			(justify left bottom)
 		)
 		(uuid "785ab2e8-ae89-48ce-b362-587055b45065")
-	)
-	(label ""
-		(at 182.88 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c371709-b2e1-4c45-ab68-5dcaa1be47fb")
 	)
 	(label "IMU SDA"
 		(at 235.585 34.925 0)
