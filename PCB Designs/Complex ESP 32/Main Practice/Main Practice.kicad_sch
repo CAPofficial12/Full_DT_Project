@@ -4048,6 +4048,56 @@
 		)
 		(uuid "dcbe67cc-b342-4fa7-abe3-dbf01b912802")
 	)
+	(text "USB-C Connector"
+		(exclude_from_sim no)
+		(at 31.115 18.415 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "549aee15-4e72-4f97-b527-8aa2cc97ce4a")
+	)
+	(text "Power LED"
+		(exclude_from_sim no)
+		(at 162.56 125.095 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76ff01eb-9cc6-4229-992b-65f8d5d3d924")
+	)
+	(text "Battery JST Connector"
+		(exclude_from_sim no)
+		(at 33.655 123.825 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfc62d93-5290-48fe-9e61-de60fd670b98")
+	)
+	(text "LiPo Battery Charger\n"
+		(exclude_from_sim no)
+		(at 167.64 18.415 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce1a0746-4e5b-4f56-8eed-421143d3f9ef")
+	)
+	(text "Low Drop Out LDO\n"
+		(exclude_from_sim no)
+		(at 31.75 92.075 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e059aafc-e79b-4fc4-9612-9bf3f5d92121")
+	)
 	(junction
 		(at 110.49 101.6)
 		(diameter 0)
@@ -4267,6 +4317,16 @@
 			(type default)
 		)
 		(uuid "18e234b7-e744-4c4a-98c4-5df3b7e12840")
+	)
+	(wire
+		(pts
+			(xy 100.33 148.59) (xy 107.95 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d65771e-9ac2-40a4-a99d-59944729407a")
 	)
 	(wire
 		(pts
@@ -4900,6 +4960,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 151.13) (xy 107.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0057a4-0a7f-4f04-ad85-925a35f5a616")
+	)
+	(wire
+		(pts
 			(xy 96.52 101.6) (xy 96.52 100.33)
 		)
 		(stroke
@@ -4947,6 +5017,16 @@
 			(type default)
 		)
 		(uuid "d32d73d4-1fba-4edf-872f-24b256ca12b2")
+	)
+	(wire
+		(pts
+			(xy 100.33 146.05) (xy 107.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71466f3-d953-4717-9c30-17441deab546")
 	)
 	(wire
 		(pts
@@ -5128,6 +5208,16 @@
 		)
 		(uuid "2ac2984f-72e2-4ab4-bfa3-7de14d32ae79")
 	)
+	(label "USB-DP"
+		(at 107.95 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "378bbdf4-48c9-49b7-921d-5c9744fc27eb")
+	)
 	(label "+5V USB"
 		(at 129.54 36.83 0)
 		(effects
@@ -5137,16 +5227,6 @@
 			(justify left bottom)
 		)
 		(uuid "3805ae5a-67cf-41a1-8d5e-a4bd9773f997")
-	)
-	(label "USB-C Connector"
-		(at 22.86 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4715ba51-98c9-4801-a85c-7a0a47bd9e38")
 	)
 	(label "USB-DN"
 		(at 55.88 44.45 180)
@@ -5168,16 +5248,6 @@
 		)
 		(uuid "492e4320-96df-4683-9f9f-7c4ac8105e59")
 	)
-	(label "LiPo Battery Charger"
-		(at 157.48 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5580e282-0efa-4220-b7c2-bcd488879f3c")
-	)
 	(label "+5V USB"
 		(at 241.3 63.5 0)
 		(effects
@@ -5197,6 +5267,16 @@
 			(justify right bottom)
 		)
 		(uuid "5f112854-f675-4abb-93aa-b0b25278b8ea")
+	)
+	(label "VBUS"
+		(at 107.95 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61468f53-100f-4f59-8b29-6055318e0811")
 	)
 	(label "VBAT"
 		(at 205.74 63.5 270)
@@ -5218,25 +5298,15 @@
 		)
 		(uuid "7dd1babf-2853-4a8c-871b-f02b05179743")
 	)
-	(label "Battery JST Connector"
-		(at 22.86 124.46 0)
+	(label "USB-DN"
+		(at 107.95 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8bed5184-c1aa-40aa-a89f-f729b78459ca")
-	)
-	(label "Power LED"
-		(at 157.48 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f3f6f1b-e99d-407a-b418-6b0bb59f6ffd")
+		(uuid "9c7f9a7f-f653-4e68-a2e4-abea95565a31")
 	)
 	(label "VBUS"
 		(at 55.88 49.53 180)
@@ -5267,16 +5337,6 @@
 			(justify left bottom)
 		)
 		(uuid "cdb295f1-8392-4ca1-bf04-206a6bd56233")
-	)
-	(label "Low Drop Out LDO"
-		(at 22.86 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3875749-9eda-4bc6-8bb4-d950c08fbf40")
 	)
 	(label "VBUS"
 		(at 55.88 36.83 180)
@@ -5332,7 +5392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.922 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -5493,7 +5553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 32.0548 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5574,7 +5634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 175.26 43.51 0)
 			(hide yes)
 			(show_name no)
@@ -5742,7 +5802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 224.4852 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5901,7 +5961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.172 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -5983,7 +6043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 177.292 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -6122,30 +6182,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "None"
-			(at 76.2 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 76.2 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SS-52400-002/Bel+Circuit+Protection/view-part/?ref=eda"
 			(at 76.2 44.45 0)
 			(hide yes)
@@ -6195,18 +6231,6 @@
 			)
 		)
 		(property "MP" "SS-52400-002"
-			(at 76.2 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6447,7 +6471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 195.58 135.382 90)
 			(hide yes)
 			(show_name no)
@@ -6606,7 +6630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 72.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +6876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.7252 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6934,7 +6958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 258.572 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -7172,7 +7196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 85.42 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7340,7 +7364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:T491A"
 			(at 109.5248 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7419,7 +7443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 254 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -7579,7 +7603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 164.592 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -7739,7 +7763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.162 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -7821,7 +7845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.6152 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7979,7 +8003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC3226X100N"
+		(property "Footprint" "Footprints:FUSC3226X100N"
 			(at 127 133.02 0)
 			(hide yes)
 			(show_name no)
@@ -8225,7 +8249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 189.992 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -8376,31 +8400,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "SOT-223-4 ON Semiconductor"
-			(at 71.12 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LM1117MPX-33NOPB/Onsemi/view-part/?ref=eda"
-			(at 71.12 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
 			(at 71.12 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8425,18 +8425,6 @@
 			)
 		)
 		(property "MP" "LM1117MPX-33NOPB"
-			(at 71.12 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 71.12 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8604,7 +8592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 98.12 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8985,30 +8973,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "NON STANDARD-2 JST"
-			(at 36.83 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 36.83 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "Check_prices" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=eda"
 			(at 36.83 134.62 0)
 			(hide yes)
@@ -9058,18 +9022,6 @@
 			)
 		)
 		(property "MP" "B2B-PH-SM4-TB"
-			(at 36.83 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 36.83 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9142,7 +9094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:T491A"
 			(at 47.9552 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9596,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 254 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -9993,6 +9945,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 100.33 146.05 0)
+			(uuid "a446eefe-c184-49af-a553-1ac18d82ec53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 100.33 148.59 0)
+			(uuid "76e90176-83ee-4b2a-99e0-82a7aeaf47d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 100.33 151.13 0)
+			(uuid "891497af-705a-45d9-870f-5c4587efbecf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
