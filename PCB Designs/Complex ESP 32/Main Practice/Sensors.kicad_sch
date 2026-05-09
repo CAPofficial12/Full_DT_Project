@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ISM330DLCTR:PQFN50P250X300X86-14N"
+		(property "Footprint" "Footprints:QFN50P400X400X100-21N"
 			(at 62.23 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4619,7 +4619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
+		(property "Footprint" "Footprints:CUI_CMC-5042PF-AC"
 			(at 138.43 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5687,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TEMT6000X01:TRANS_TEMT6000X01"
+		(property "Footprint" "Footprints:TRANS_TEMT6000X01"
 			(at 104.14 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6205,7 +6205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BME280:PSON65P250X250X100-8N"
+		(property "Footprint" "Footprints:PSON65P250X250X100-8N"
 			(at 62.23 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6757,7 +6757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX4466EXK:SOT65P210X110-5N"
+		(property "Footprint" "Footprints:SOT65P210X110-5N"
 			(at 198.755 45.72 0)
 			(hide yes)
 			(show_name no)

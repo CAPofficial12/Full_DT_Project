@@ -2975,7 +2975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
 			(at 128.27 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3342,7 +3342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
 			(at 88.9 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3498,16 +3498,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "99ae9eb2-a127-4ba6-b4a2-c10bcabbc491")
+			(uuid "99ae9eb2-a127-4ba6-b4a2-c10bcabbc492")
 		)
 		(pin "1"
-			(uuid "84651d9d-628e-4a89-856d-e2702eedd761")
+			(uuid "84651d9d-628e-4a89-856d-e2702eedd762")
 		)
 		(pin "4"
-			(uuid "ffed119d-d66b-47ae-af60-f40eed6b66a3")
+			(uuid "ffed119d-d66b-47ae-af60-f40eed6b66a4")
 		)
 		(pin "2"
-			(uuid "650f139d-f324-4a2c-b211-329e08230120")
+			(uuid "650f139d-f324-4a2c-b211-329e08230121")
 		)
 		(instances
 			(project "Main Practice"

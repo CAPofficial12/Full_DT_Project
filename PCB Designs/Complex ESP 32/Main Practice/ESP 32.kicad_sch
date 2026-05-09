@@ -7219,10 +7219,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3a2460b-29ae-4faa-8b17-9996b8aa9424")
+			(uuid "f3a2460b-29ae-4faa-8b17-9996b8aa9425")
 		)
 		(pin "2"
-			(uuid "e25a2501-9f6d-4a52-85eb-1bc216bda87f")
+			(uuid "e25a2501-9f6d-4a52-85eb-1bc216bda880")
 		)
 		(instances
 			(project "Main Practice"
@@ -7894,7 +7894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
 			(at 113.03 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8614,10 +8614,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e782d5c4-5deb-4615-9ea1-3bfe9c068375")
+			(uuid "e782d5c4-5deb-4615-9ea1-3bfe9c068376")
 		)
 		(pin "1"
-			(uuid "555328dc-a3e0-4ed9-b7f6-def6db3fcb3e")
+			(uuid "555328dc-a3e0-4ed9-b7f6-def6db3fcb3f")
 		)
 		(instances
 			(project "Main Practice"
@@ -9142,7 +9142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
+		(property "Footprint" "Footprints:SOIC127P790X216-8N"
 			(at 54.61 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9472,7 +9472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Footprints:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 217.805 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -10113,7 +10113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GSD090012SEU:AMPHENOL_GSD090012SEU"
+		(property "Footprint" "Footprints:AMPHENOL_GSD090012SEU"
 			(at 209.55 130.81 0)
 			(hide yes)
 			(show_name no)

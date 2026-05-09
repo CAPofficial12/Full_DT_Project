@@ -1032,7 +1032,7 @@
         "uuid": "3a7f5a9d-c52c-4e05-8447-98c7e4d3dfde"
       }
     ],
-    "used_designators": "U2-10,#FLG3-4,R11-18,R20,R25,R27,R32-35,J3-7,#PWR20-60,LED5-6,C7-9,C12-17,C19,C21-22,MK1-2,TP1-5,Q1-3,RDM1-2,S1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
