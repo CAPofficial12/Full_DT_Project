@@ -2,6 +2,7 @@
 #include <vector>
 #include <math.h>
 #include <cmath>
+#include <random>
 using namespace std;
 
 double PI = acos(-1);
@@ -11,15 +12,20 @@ double x = 5;
 double y = 21;
 
 // Arm Lengths
-double l1 = 10;
-double l2 = 20;
+double l1 = 1;
+double l2 = 2;
 
 // Functions
 double Sum(double a, double b);
 void print(vector<double> rec);
 vector<double> Normal();
 vector<double> Polar();
-
+int dice();
+// Tests and random function
+int test = 0;
+int suc = 0;
+static random_device rd;
+static mt19937 rng{rd()}; 
 
 int main(){
     /*
@@ -32,12 +38,36 @@ int main(){
     cin >> y;
     */
 
+    auto nan = Polar();
+    for (int  i = 0; i < 1000; i++){
+        x = dice();
+        y = dice();
+        l1 = dice();
+        l2 = dice();
+        if (sqrt(pow(x, 2) + pow(y,2)) < l1 + l2){
+            if (Normal()[0] == Polar()[0] && Normal()[1] == Polar()[1]){
+                suc += 1;
+            } else{
+                cout << "Normal" << endl;
+                print(Normal());
+                cout << "pOLAR" << endl;
+                print(Polar());
+                cout << endl;
+            }
+            test += 0;
+        }
+        cout << suc << endl;
+        cout << test << endl;
+    }
+
+    /*
     cout << "Normal: " << endl;
     print(Normal());
 
     cout << "Polar" << endl;
     print(Polar());
-
+    */
+    
     return 0;
 }
 
@@ -90,4 +120,10 @@ void print(vector<double> rec){
     for (double i:rec){
         cout << i*180/PI << endl;
     }
+}
+
+int dice()
+{
+    static std::uniform_int_distribution<int> uid(1,10000); // random dice
+    return uid(rng); // use rng as a generator
 }
