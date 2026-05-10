@@ -28,7 +28,7 @@ static random_device rd;
 static mt19937 rng{rd()}; 
 
 int main(){
-    /*
+    
     cout << "Enter Lengths: " << endl;
     cin >> l1;
     cin >> l2;
@@ -36,8 +36,8 @@ int main(){
     cout << "Enter X and Y coordinates: " << endl;
     cin >> x;
     cin >> y;
-    */
-
+    
+    /*
     auto nan = Polar();
     for (int  i = 0; i < 1000; i++){
         x = dice();
@@ -59,14 +59,12 @@ int main(){
         cout << suc << endl;
         cout << test << endl;
     }
-
-    /*
+    */
     cout << "Normal: " << endl;
     print(Normal());
 
     cout << "Polar" << endl;
     print(Polar());
-    */
     
     return 0;
 }
@@ -122,8 +120,8 @@ void print(vector<double> rec){
     }
 }
 
-int dice()
+int dice(int a)
 {
-    static std::uniform_int_distribution<int> uid(1,10000); // random dice
+    static std::uniform_int_distribution<int> uid(1,a); // random dice
     return uid(rng); // use rng as a generator
 }
