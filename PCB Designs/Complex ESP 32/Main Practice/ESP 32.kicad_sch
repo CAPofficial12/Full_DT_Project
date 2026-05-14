@@ -6134,7 +6134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Footprints:T491A"
 			(at 68.58 27.6352 0)
 			(hide yes)
 			(show_name no)
@@ -8401,7 +8401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1c2f997-9a95-4301-884b-7aa2d1f56cdb")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 266.7 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8465,7 +8465,7 @@
 		(instances
 			(project "Main Practice"
 				(path "/3a7f5a9d-c52c-4e05-8447-98c7e4d3dfde/c32656d9-283f-41bc-a7bf-ea6daeb54ad1"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10309,7 +10309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6ca142d-2728-411e-99b5-e5570e8228f0")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 278.13 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10373,7 +10373,7 @@
 		(instances
 			(project "Main Practice"
 				(path "/3a7f5a9d-c52c-4e05-8447-98c7e4d3dfde/c32656d9-283f-41bc-a7bf-ea6daeb54ad1"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
