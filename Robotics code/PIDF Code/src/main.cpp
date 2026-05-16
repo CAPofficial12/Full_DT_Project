@@ -11,72 +11,85 @@ Servo servoBR;
 
 MPU6050 imu;
 
+//Time Points
 int t1;
 int t2;
 
+// Angles
 int target;
 int tilt;
 int lastTilt;
 
+//Proportional
 double Kp;
 double error;
 double P;
 
+//Derivative
 double Kd;
 double dt;
 double derivative;
 double D;
 
+//Integral
 double Ki;
 double integral;
 double I;
 
+//Feedorward
 double Kf;
 
+//Fuction forward declaration
 void fix_pos(int x);
 void set_power(int x);
 
 void setup() {
 
+  //Set Imu caribration and orientation
   imu.CalibrateAccel();
   imu.CalibrateGyro();
-  target = imu.getRotationY();
+  target = imu.getRotationY();    //Subject to change DOF
+
+  //Connects servos to Pins
   servoTL.attach(0);
   servoTR.attach(1);
   servoBL.attach(2);
   servoBR.attach(3);
 
+  // Set Motor to Pins
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
-  pinMode(6,   OUTPUT);
-  pinMode(7, OUTPUT);
 
+  //Checks Tilt from 
   lastTilt = imu.getRotationY() - target;
 }
 
 void loop() {
-  t1 = millis();
+  // Check time at start of loop
+  t1 = micros();
   fix_pos(90);
 
   tilt = angl();
   error = tilt - target;
 
-  dt = millis() - t1;
+  t2 = micros();
+  dt = t2 - t1;
   if (dt == 0){
     dt = 1;
   }
-
-  
-  integral += error * dt;
-  I = Ki * integral;
-
   derivative  = (tilt - lastTilt)/dt;
+  /*
+  integral = max(error * dt, 50);
+  I = Ki * integral;
+  */
   double out = Kp*error + Kd*derivative;
   Serial.println(out);
 
   set_power(out);
   lastTilt = tilt;
 }
+
+
 
 void fix_pos(int x) {
   servoTL.write(x);
@@ -88,8 +101,6 @@ void fix_pos(int x) {
 void set_power(int x){
   analogWrite(4,x);
   analogWrite(5,x);
-  analogWrite(6,x);
-  analogWrite(7,x);
 }
 
 double angl(){
