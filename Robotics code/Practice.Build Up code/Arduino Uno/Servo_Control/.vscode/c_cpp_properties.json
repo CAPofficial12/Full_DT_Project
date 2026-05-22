@@ -1,0 +1,62 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/rakhe/Desktop/Aarav_Thakur/Full_DT_Project/Robotics code/Practice.Build Up code/Arduino Uno/Servo_Control/include",
+                "C:/Users/rakhe/Desktop/Aarav_Thakur/Full_DT_Project/Robotics code/Practice.Build Up code/Arduino Uno/Servo_Control/src",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/variants/pb-variant",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/Flash/src",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/rakhe/Desktop/Aarav_Thakur/Full_DT_Project/Robotics code/Practice.Build Up code/Arduino Uno/Servo_Control/include",
+                    "C:/Users/rakhe/Desktop/Aarav_Thakur/Full_DT_Project/Robotics code/Practice.Build Up code/Arduino Uno/Servo_Control/src",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/variants/pb-variant",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/Flash/src",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                    "C:/Users/rakhe/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60119",
+                "ARDUINO_AVR_ATmega328PB",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328PB__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "compilerPath": "C:/Users/rakhe/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega328pb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
