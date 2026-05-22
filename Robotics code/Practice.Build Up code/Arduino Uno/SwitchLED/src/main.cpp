@@ -5,11 +5,12 @@
 
 int main(void){ 
   DDRB = 0X01;
-  PORTB = 0;
+  PORTB = 0x02;
   while (1){
-    PORTB = 0x01;
-    _delay_ms(1000/30);
-    PORTB = 0;
-    _delay_ms(1000/30);
+    if(!(PINB & 0x02)){
+      PORTB |= 0x01;
+    } else{
+      PORTB &= 0xfe;
+    }
   }
 }
