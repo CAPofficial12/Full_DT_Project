@@ -1,0 +1,1072 @@
+Aarav Thakur
+10XO
+Mr Laher
+Design and Technology NEA
+
+Delicate Plates 
+Problem 1
+Problem 2
+Problem 3
+Heavy Guitars
+Robotics Education
+The average weight of a guitar is around 3.6 kg and is almost 1 metre long this makes it difficult for people including many of my guitarist friends to practice in different places. Although their passion for guitar pushes them to practice whenever they can, the heavy weight and large size of the guitar makes it difficult to do so. In addition, electric guitars require a large amount of gear to get the correct sound that one looks for and often times, this gear can be expensive and heavy further restricting people from practicing in places other than their home.
+As shown in the table:
+Throughout the majority of the current decade, guitar sales have been on the rise and haver increased by 6.4% in the past year alone
+Ways I could help:
+ When designing the guitar I must take into account everything such as but not limited to tone, feel and comfort while still optimising its smaller size and lightweight.
+
+Since the majority of plates are made of glass, porcelain or ceramic, they make a highly unpleasant sound when scratched with a fork, they easily break and when they break, they shatter meaning that it is difficult to clean up all of the shards of plate and they shards are very dangerous as accidentally stepping on them could severely injure the person
+A solution to this is problem to make a hollow guitar body which significantly reduce the weight of the guitar. However, hollow-body guitars have a different tone from a full body guitar.
+One solution to this problem is tempered glass which is a form of glass which has been heat treated to become stronger than regular glass. One problem with this solution is that the plate can still break on impact making it not ideal for a plate
+To solve this problem, I could make a plate which is hard, does not shatter and has an appropriate design and still maintain a premium feel.
+ A study by the NIH focusing on the injuries of minors has shown that 86% of lacerations are caused by minors stepped on shards of glass
+Although movement such as FIRST have revolutionized robotics among high schoolers, organising events and competitions all around the world encouraging more teenagers to engage in robotics, it has a long way to go before reaching all corners of the earth (which is a cube). For example, in countries like portugal, spain and belarus, there are no initiatives which encourage robotics. This has become hindrance to many people who are actually interested in the subject but it is either too expensive or too distant to be worthwhile
+By 2030, there could be a global shortage of over 85 million skilled workers, many in STEM fields. Source: Korn Ferry – The Global Talent Crunch report
+Only about 40% of schools worldwide have access to adequate STEM learning resources.Source: UNESCO – global STEM education reports 
+commercial robotics kits cost $200–$500 per student and hundreds of thousands for competitive robotics. Source: market data from companies like LEGO (e.g., LEGO Mindstorms) and VEX Robotics kits.
+ Around 2.6 billion people globally still lack reliable internet access. Source: International Telecommunication Union
+Ways I could help:
+
+I could create a cheap robotics kit which can be easily distributed through rural regions such as villages in india and teach them about engineering and robotics.
+Potential Client: My mother
+Potential Target Market: Restaurants
+Potential Clients: Shiv, Ubai, Kenda, Rocco
+Potential Target Market: Guitarists
+Potential Client: Faris Tarraf
+Potential Target Market:  Robotics enthusiasts and young child
+
+In-depth research
+Benefits of robotics education:
+
+Problems with robotics education
+Target User data
+Classroom limitations
+Existing products:
+
+Conclusison
+
+Design brief
+I will be designing a product that satisfies the needs and demands of middle and high school robotics enthusiasts. This product will be used over a period of 2 weeks to 2 months dispensing on how much time they spend on the kit so it must meet the requirements for that. The costumer range will be between the ages of 12-18 as often they want to get started and dive deep into robotics but can only rely on small allowance money to do so. 
+
+In addition, I would like my product to be aesthetically pleasing as possible, to a meet this goal I will make the product have a clean and well-managed design, making it have a sleek appeal. The finish will be matte to give it a bolder appearance and to remove any extra stickiness that glossy colour may incur. Since tennagers often are developing their personalities, I will keep the designs simplistic.. 
+
+Furthermore, the product will need to meet a range of requirements and specific needs for my client. Therefore I will need to research into my clients needs and wants through an in-depth interview and questionnaire and also into the wider publics needs and wants through a simple, structured questionnaire.
+
+The product must also be ergonomically designed and has the potential to suit multiple users, including my client and potential sellers. To do this I will do my own research on existing products, analysing the advantages and disadvantages of each product.
+
+This products main use will be to educate teenagers on the principles of robotics for a low price so the need for it to be functional, minimalistic and cost efficient is necessary.Hence, the product will be made of reliable and cheap materials such as PLA and plywood.
+
+The product will also be manufactured using machinery only available within the department. Therefore any manufacturing process and materials must be used efficiently so that it minimises cost and therefore maximises profit from the sales. The materials must also be available in the department meaning that every item must be used to its maximum potential to achieve the goal of making this product. 
+
+What I plan to research
+How I plan to gather the information
+Why I will research it
+How will it help me with my project 
+Client information
+Primary research: Interview
+It will help me understand what my client wants
+Aesthetics
+Primary research: Interview
+Secondary research: Internet
+It will help me design my product in an appealing way
+Cost
+Primary research: Interview
+Secondary research: Internet
+It will help me set a target price on the product
+Environment
+Secondary research: Internet
+It will help me prevent harm to the Environment 
+Ergonomics and anthropometric 
+Primary research: Client measurements
+It will help me make my product comfortable to hold
+Existing products
+Secondary research: Internet
+It will help me get ideas for my product
+Size
+Primary research: measurements
+Secondary research: Internet 
+It will help me set constraints on my design
+Safety 
+Secondary research: Mr Laher and internet
+It will help me prevent injury when interacting with my product
+Function
+Primary research: Interview
+Secondary research: Internet
+It will help me understand what features my guitar should have
+Materials and finishes
+Primary research: Experimentation
+It will help me decide which materials to use for my product
+Manufacturing processes
+Primary research: Experimentation
+It will help me plan how I will build my product
+Research plan
+
+Mood Board
+Name: Faris Tarraf
+Gender Male
+Age: 13
+Location: Braga, Portugal
+Language spoken : English, Arabic
+Date of birth: June 11th 2012
+Handedness: Right
+
+His hobbies include gaming and coding. However, due to his current relocation to portugal, he has been unable to participate in robotics. He often complains about expensive kits and the lack of programs within his area. For this reason I am making a cheap robotics kit which can be used to learn about basic engineering concepts
+Client Needs and Wants:
+
+Needs:
+circuit stuff, motors, and building materials (like stuff to build the chassis), cheap and fun
+Wants:
+External sensors such as magnetometers cameras
+Have you done any robotics or electronics before?
+Yes I have.
+
+What was your experience like? 
+It was very enjoyable
+
+What made you interested in robotics in the first place?
+I first got into Robotics when I was young through a Lego Mindstorms Course my parents signed me up for. 
+
+ What specifically about being in Portugal has made it hard to access robotics? 
+The lack of proper Robotics Teams near me, as well as the language barrier. 
+
+Have you ever tried to build something electronic or mechanical on your own? 
+Yes. Mechanical (I believe it would count as mechanical). A Pinewood Derby Car. 
+
+How much would you (or your parents) realistically be willing to spend on a robotics kit?
+I would say 50 Euros, give or take. 
+
+Would you prefer to follow step-by-step instructions, or figure things out yourself with hints? 
+I'd prefer clear instructions, instructions for individual mechanisms/features, and the ability to just figure things out myself. 
+
+ Do you prefer a clean, polished look or a more barebones, mechanical look?
+Both are okay, but a clean look is nicer.
+
+Will you be using this alone or with an adult nearby?
+I will be using it alone
+
+ Do you have any allergies or sensitivities to materials like certain plastics or strong-smelling paints?
+Not that I know of.
+Target audience
+My target audience is children and teenagers who are interested in engineering or robotics but cannot afford to do so practically.
+
+
+
+The robotics kit on the right uses blue parts which research has shown boosts creativity. This aids in the user’s engagement and boost conceptualisation. Additionally, the continuous treads and the metallic coating makes the robot feel more like a tank, further interesting children and teenagers,
+The use of the ultrasound sensors as eyes makes the robot appear more human forming a stronger connection between the user and the robot. Furthermore, . 
+Colour Psychology: As referenced in the first aesthetic analysis of a product, certain colours abet the user to express certain emotions. For example, silver (which most metals are coloured) induces a feeling of sophistication.Hence, I will use blue as a main colour and red as accents;
+
+Biomimicry: Biomimicry is the use of the natural world to solve problems that we ourselves have. Incorporating the natural world into my product, it will teach the user that a great source of inspiration for solving real world problems is to look at nature as it often has already solved the same problem but in a different context. For example, the bullet train often made large booms whenever passing through tunnel. So engineers took to the kingfisher bird for inspiration which ultimately helped with the final design We can apply the same concept to this kit. The “animal” that most people interact with are human so making a humanoid robot would build a greater connection between the robot it the user.
+Products: Cheap —> expensive 
+Cost of my product: The cost of the product will be determined materials I use, the current price of similar products on the market, and the time and labour that will go into making the product. Due to one of my product targets is being cheap, I will have to price the kit in the middle to low price range.
+Aesthetics
+Cost
+
+Environment and sustainability
+Fossil fuels are fuels which were formed over millions of years from dead animals and plants. Thes often use combustion to release energy. This releases toxic gases such as sulphur dioxide and carbon dioxide into the atmosphere and contribute to global warming. Nuclear energy is energy derived from the nuclear decay of enriched uranium 235. This produces radioactive waste which is difficult to dispose of and takes centuries to decompose. Renewable energy is energy derived from renewable sources such as wind and the sun but is unpredictable and only produces energy in intervals. A finite resource is a resource which will eventually run out. An infinite resource is a resource which is able to be renews at a rate in which the new resource can replace the old resource. Though this does not exist, we should preserve the energy we do have. For this reason, I have decided to an use easy to manufacture material such as PLA which does not require much energy to deform but remains still at room temperature.
+Materials that can be recycled:
+Paper
+Cardboard
+Wood
+Metal
+
+Materials which a cannot be recycled:
+Plastic
+Styrofoam
+Ceramic
+What are the 6Rs:
+Rethink (think about using non-recyclable materials before using them)
+Refuse: try your best to avoid using non-recyclable materials
+Reduce: limit the amount of non-recyclable 
+Reuse: limit the amount of materials you waste by using scrap material which otherwise would have been considered as trash
+Repair: try fixing things before throwing them out
+Recycle: if it is not possible to reuse the materials, try recycling the materials
+The recycling symbol three arrows symbolize the process of collecting, manufacturing, and purchasing products made from recycled materials. Recycling is needed to conserve natural resources like trees and minerals by using materials which were previously used to make products; reduce energy consumption and greenhouse gas emissions, decrease pollution from landfills and waste, protect ecosystems and wildlife.
+LCA is a method to determine a product’s impact on the environment. LCA looks at the entire life cycle of the product to prevent one impact from being shifted to another. The LCA is a standardise industrial practice which is governed by ISO 14040 and 14044.
+
+Product Analysis 
+Aesthetics:
+The robotis mainly black with yellow and blue accents. This along with its barebones nature makes the product look aesthetically pleasing while remaining functional
+Cost:
+The cost of the product is around 100$. However, this is only the cost within the US. I believe this is a fair price as it offers high quality parts at a feasible price point.
+Customer:
+The product has clearly been designed for a customer to build themselves as it include not only the parts that are needed but also the physical tools that would be used
+Environment:
+The product is mostly acrylic and electronics. Hence, the product itself is not environmentally safe. However, the parts could be reused in separate projects making the product less environmentally threatening. However, the acrylic will have to be thrown away once used as it cannot be used for be used for any other project.
+Size:
+The robot is a compact robot car for a tabletop. Hence can be used on desks and is easy to store and transport.
+Safety:
+Low voltage electronics (Arduino boards and small motors). Requires supervision for younger users due to small components and wiring. It is unlikely that someones finger get stuck in any places
+Function:
+Allows students to build and program robots using Arduino.Often includes sensors such as ultrasonic distance sensors and line followers.Teaches coding, electronics, and robotics principles.
+
+
+Product analysis
+Aesthetic:
+Industrial robotic arm design made from metal. The used of CNC’ed metal gives the robot a professional appearance similar to small factory robots. Exposed mechanical joints emphasize engineering structure.
+Cost:
+Mid to high price for an educational robotics kit (around $150–$200).This high of a cost is due to multiple servo motors and metal construction. I believe this is unreasonable as it provides little educational value compared ot other competitors.
+Customer:
+Targeted at older students, robotics hobbyists, and educators. Recommended age 14+ due to complexity and is used for learning robotics, programming, and automation.
+
+Environment:
+Durable aluminum construction increases product lifespan. However, electronic components require proper disposal when damaged. Since the product can be used for a long time, it reduces the waste cause by the product.
+Size:
+Approximately 18.3 × 4.7 × 11.2 inches.
+Desktop-sized robotic arm suitable for laboratory or classroom work.
+
+
+Safety:
+Moving points such as joints and grippers are possible spaces for children to get their fingers stuck so safety precaution such as turning of the orbot must be take. However, th low voltage prevents this from causing real harm
+Function:
+The robot is a 6-degree-of-freedom robotic arm which can be controlled via PC, mobile app, or wireless controller.
+Used for pick-and-place tasks and robotics programming practice.
+
+Product Analysis
+Aesthetics:
+Modern educational robot design with colored metal parts and wheels. Friendly appearance suitable for classrooms and younger students. Includes a display and sensors that give the robot an interactive look.
+Cost:
+Higher-end educational robotics kit (around $150–$250).
+Higher price reflects advanced sensors, controller board, and software ecosystem.
+Customer:
+Designed for STEM education, schools, and coding programs and is suitable for learners aged around 12+. It is often used in robotics clubs and coding classes.
+
+Environment:
+Although it uses recyclable aluminium, it also uses ABS which can harm the environment. Since the kit uses rechargeable batteries and modular parts, nothing has to be thrown aways as it can easily be recharged, repaired or upgraded.
+Safety:
+Rounded edges and enclosed electronics make it safer for students as it prevents them from getting cuts or from getting shocked.
+Size:
+Compact mobile robot about 90 × 180 × 130 mm makes it well suited for classroom desks and small testing environments.
+
+Feature:
+The kit consists of a simple 2 wheel drive which can easily be programmed in either scratch or C++. This allows the user to not only control the robot remotely but also autonomously
+
+Materials:
+Aluminum structural partsABS plastic casing
+Electronic sensors and PCB control boards
+DC motors and wheels.
+
+Scroll Saw:
+The scroll saw has a sharp edge which quickly oscillates up and down to cut through wood
+Solder:
+The Soldering iron has a hot tip which is used to melt solder and solidify the connection between a wire and the pins 
+Advantages
+Disadvantage
+Allows for curved and intricate pattern
+Not as versatile as other saws
+Can only cut a single angle
+Advantages
+Disadvantage
+Can be done in under 30 seconds
+The joints can withstand forces
+Creates fumes which contain lead (Depending on the solder) 
+Vacuum Forming:
+In vacuum forming, the former heats a plastic sheet until it is soft and flexible. It then uses a vacuum to suck the plastic around a mold.
+Advantages
+Disadvantage
+Quick to make pieces
+Simple to use
+Only useful with thermoplastics
+Cannot create intricate shapes
+Heat Press:
+The heat press heats the textile and presses a special material onto it, forming a design on the surface.
+Advantages
+Disadvantage
+Easy to use
+Quick to print designs
+Low-Cost
+Could lead to inconsistent results
+
+Belt Sander:
+A long piece of safing paper spins around a drum, shaving off chips on the surface of the wood.
+Pillar Drill:
+The drill bit at the top rotates very quickly to drill through a material. The lever on the right pulls the drill straight down into the part.
+Advantages
+Disadvantage
+Quick 
+Easy to drill
+Can only drill vertically
+Can be unsafe in the part is not clamped 
+Advantages
+Disadvantage
+Quick to sand parts down
+Simple to use
+The surface still remains slightly rough
+Cannot reach all corners of a wooden piece
+3D Printer:
+
+The nozzle on the top heats a plastic until it become s malleable as lays the material down onto the print bed
+Advantages
+Disadvantage
+Can make intricate pieces
+Good for prototypes
+Only can make them in plastics
+Slow
+The print can fail
+Strip heater:
+The wire heats up allowing it to easily cut soft materials such as styrofoam.
+Advantages
+Disadvantage
+Quick to make models
+Good for prototypes
+Not accurate
+Only works for certain materials
+
+Laser Cutter:
+The laser cutter burns through the wood to cuts certain pieces out of it by using a high power laser.
+Hand Tools:
+The hand tools allow us to create designs using physical tools such as saws and handheld drills which gives us the most amount of control.
+Advantages
+Disadvantage
+Uses Full dexterity
+Takes time to make
+Difficult to make it
+Advantages
+Disadvantage
+Quick to make pieces
+Simple to use
+Only works in 2 dimensions 
+Burns the material
+Vinyl Cutter:
+The machine quickly cuts the vinyl using a very sharp blade and moves the vinyl by moving the material vertically and the blade horizontally
+Advantages
+Disadvantage
+Can make intricate pieces
+Good for prototypes
+Only can make them in vinyl
+Only works on a relatively small scale
+CNC machine:
+The drill bit at the top rotates very quickly. The Drill bit is moved around to remove certain parts of the material
+Advantages
+Disadvantage
+Good for intricate designs
+Simple to use
+Slow
+Only works in 2D
+Only works for certain materials
+
+Material
+Advantages
+Disadvantages
+Uses
+Plywood
+Strong and durable
+Resistant to warping
+Lightweight
+Cheap
+Susceptible to delamination
+Hard to make intricate  cuts
+Inconsistent quality
+Sometimes contain gaps
+Roof decking
+Cabinets
+Wall paneling
+Oak
+Dense
+Aesthetically pleasing grain grain
+Resistant to wear
+Long Lifespan
+Expensive
+Heavy
+Can Split
+Can wear tools
+Furniture
+Floors
+Doors
+Veneers
+Pine
+Cheap
+Easy to cut
+Light
+Aesthetically pleasing grain
+Soft
+Can warp
+Not moisture resistant
+Furniture
+Shelves
+Framing
+Paneling
+MDF
+Smooth
+No grain
+Cheap
+Easy to cut
+Heavy
+Poor moisture resistance
+Lots of dust
+Cabinet
+Mouldings
+Speakers
+Panels
+Acrylic 
+Clear
+Light
+Available in different colours
+Weather resistant
+Scratches
+Hard to machine
+Brittle
+
+Signs
+Screens
+Lightboxes
+Aquariums
+PLA
+Useful for 3D printing
+Biodegradable
+Available in many colours
+Brittle
+Not useful long term
+Low strength
+Prototypes
+Model Parts
+Replacement Parts
+Aluminium
+Lightweight metal
+Resistant to corrosion
+Easy to machine
+Recyclable
+Soft
+Expensive
+Lower Strength
+Robot frames
+Extrusions
+Screws
+Heat Sinks
+Steel
+Strong
+Cheap
+Easy to machine
+Long lasting
+Heavy
+Rusts
+Conductor
+Hard to cut
+Cars
+Appliances
+Beams
+Tools
+
+Material Testing
+Material Name
+Scratch Test
+Dent Test
+Drilling Test
+Cutting test 
+Acrylic
+Does Not scratch with a fingernail
+Captured Fingerprints
+Scratches with sharp objects
+Scratches are only visible when shone against a light
+Brittle
+Easily Dents
+Quickly fractures once dented
+Quite resistant to drilling
+Large amount of residue builds up around the drill hole
+Soft
+Heats up quite a bit
+Results in a coarse cut
+MDF
+Does not scratch
+Difficult to dent
+Easy to drill
+Quite soft
+Cuts were clean
+Plywood
+Brittle
+Breaks along the grain
+Easily Deforms
+Scratches across the grain
+Flakes
+Dents Easily
+Easy to drill
+Cuts were not clean 
+Easy to cut
+
+Finger Joint Cube
+Making a cube with finger joints by hand was a tedious and repetitive process which did not result in a particularly good product. First, I made borders on each wood piece using the side of another wood piece. Then I marked which parts I would need to cut. 2 sides would need the all the middler sections cut out, 2 sides for need all the edge sections cut out and  and the other 2 sides would need half and half cut out. To cut out the sections, I used a coping saw for coarse cuts and sandpaper for finer cuts.With the coping saw,  I often cut on or beyond the marking leading to inconsistent pins and slots. As a result, I had to test each joint as many of them did not fit on the first  test. Once all of the joints fit, many holes were left between ach joint which I patched up and fixed in place using wood glue. Finally, I sanded everything down to get smooth surfaces and rounded edges.
+
+Photo of wooden box
+Making a cube with finger joints with CAD and CAM was drastically easier than doing it by hand. To design the parts needed for the cube, I used Techsoft. Techsoft intuitive design made the process of marking the parts a whole lot easier. Once the CAD was made, I uploaded it to a USB stick as a DXF file where I plugged it into a separate computer where, using the values written on a notebook, I calibrated the power of the laser cutter. I then uploaded my design and turned on the laser cutter. Due to the age of the school’s laser cutter, I had to move the laser head out of the corner before using it. Once the cut was complete, I literally added some glue on the edges of each piece that would come in contact with another part. Then I sanded everything down ti get smooth surfaces and rounded edges
+Photo of CAM wooden box
+
+The CE mark on products states that the product is allowed to be sold in the EU (European Union) and EEA (European Economic Area). For a product to be legally sold in the EU and the UK it must apass the EU’s safety, health and environmental standards.
+My product must always abide by these standards as to permit sale within europe which (as stated in my in-depth research) is an extremely large market.
+The BSI (British Standards Institution) is the national body which regulates technical and Safety standards across the country. It also is the body which test products for their safety and reliability and certifies them as legally sellable. They do regular tests on each product to ensure that the product still remains reliable and safe. When designing my product, I will make sure that it follows the BSI standard such as protection against electric shocks by using suitable insulation, fire hazards by using safe voltages, mechanical risks and hazards from environmental conditions use. From this, my product will receive the BSI Kitemark and this will ensure the consumer that the product is safe to use and marketable in england
+
+The robot kit must be able to fit into a small box of around 300mm x 200mm 50mm with the final robot being able to easily fit on a small desk. The individual parts must be able to fix in the user’s hand for easier manipulation of elements.  Hence the final bot will be around 200mm x 200mm x 200mm.
+Safety Standards my product will have to pass:
+CPSIA
+CE Marking
+BSI EN 60204-1
+IEC 62368‑1
+The CPSIA ( Consumer Product Safety Improvement Act) ensure that the product does not include any or limited harmful chemicals such as lead and Phthalates to protect children. It also mandates that the product has to go through a form of third party testing to ensure it does not harm the child. 
+Size
+To keep my product safe in the hands of children I will employ a number of safety features which can be separate into 2 categories: electrical and mechanical. To prevent the children from getting shocked, I will use a battery with less than 12V, Fuses to prevent overcurrents, use proper insulation on wires, clearly label the power input and place the batteries in a safe holder. Mechanically, I will fillet the edges, make sure that the screws cannot fall out by using either threaded inserts or nuts to secure the parts, use large parts to prevent young children from choking and use safe and non toxic materials.such as PLA
+Safety
+Function
+Problem research::
+The kit must be able to accept some sort of input from a single or multiple devices and output a resulting motion or action. After completing the kit, the user must understand both basic and relatively advanced concepts of robotics
+Components                                                                                                                              A cheap  microprocessor will be used as the brains of the whole robot as it is cheap and readily available. Alongside that, I will use gold MG946R servos because of their all metal gear which prevent gear skipping along with a TT motor which permits ample speed without being dangerous.
+Skills it will teach: The kit will teach the  use about basic concepts such as gears, belts ropes, with motors, scissor lifts along with programming skills such as sensor control, PIDF loops. These allow the user to bit only build their mechanical skills but also their coding skills
+
+Name
+Description
+Application
+Advantage
+Disadvantage
+Spray Paint
+Spray painting is a type of painting where the paint is atomised before being released into the air and landing on the part
+Shake the spray can
+Start spraying the paint while slowly moving over the part from side to side
+Fast
+Smooth finish
+Reaches difficult to reach places
+Less physical effort: 
+Versatility: 
+Wastes a large amount of paint
+Requires preparation
+Not safe
+Expensive
+Varnish
+A clear, protective coating made of resin, solvent, and a drying oil that provides a hard, lustrous finish to surfaces like wood
+Dip the brush into the white varnish
+Varnish the part by brushing along the grain
+Wait 5 min before doing another coat
+Protection
+Durability
+Appearance
+Ease of Application
+Slow Drying
+Yellowing
+Difficult Cleanup
+Bubbles could form
+Multiple coats
+Strong Odour
+Wax
+Wax is a a protective coating made from natural or synthetic waxes that enhances the wood's natural grain, and offers moisture resistance
+Use a piece of cloth to rub the wax
+Rub the part with the cloth
+Aesthetic
+Easy To Apply
+Environmentally Friendly
+
+Weak
+Requires maintenance
+Difficult to remove
+Wears off quickly
+Stain
+Stain is a coloured substance which ‘bleeds’ into wood, changing its colour while still showing the grain
+Dip the brush into the stain
+Stain the part by brushing along the grain
+Wait 5 min before doing another coat
+Aesthetic
+Protection against moisture, mildew and sun
+Easy to apply
+Cheap
+Has to be replaced
+Does Not hide imperfections
+Few colours
+
+Paint
+Paint is a coloured substance which form a decorative or protective layer over a patt
+Dip the brush into the paint
+Paint the part by brushing along the grain
+Aesthetic
+Durable
+Easy to clean
+Versitile
+Eco-friendly
+Cheap
+Difficult to remove
+Requiress prep
+
+Lacquer
+Lacquer is a clear protective layer which provides a glossy finish
+Spray the part vertically
+Fast Drying
+Burable
+Aethetic
+Toxic
+Yellowing
+
+Fixing and construction methods
+Wood
+Finger Joint:
+A finger joint cuts the wood in interlocking wedges, increasing surface area to create a stronger adhesive bond, spread out stresses and is versatile
+Dovetail joint:
+Instead of cutting straight wedges, flared tails’ are cut out of the wood which intersect to create a strong joint. This design makes them less susceptible to lateral forces, they are more aesthetic than the finger joint and are more durable.
+Butt joint, 
+a butt joint is the simplest type of wood joint making it quick to do but makes the joint weak and it may be difficult to perfectly align
+Adhesive:
+An adhesive is a substance which connects 2 materials together. This allows 2 different materials to be joined together differently and distributing stress and are easy to apply
+Metal
+Metal Bracket:
+Metal brackets are essential structural fasteners used to connect, support, and reinforce materials, commonly made from steel, aluminum, or iron. There are many types of metal bracket: L, Z, T, Flat.
+Welding:
+Welding works by melting base metals to physically bind the 2 pieces of metal together. This results in an extremely strong joint. However, the equipment required for this process is expensive
+Rivet:
+Rivets are pieces of metal which pass through holes within the metal. The end of the  rivet is then deformed ,often by a hammer, creating a second head on the other side of the metal pieces. This creates a strong bond between the pieces of metal
+Nuts and bolts:
+Bolts are screws with a constant width. They are passed through a hole and on the other side of the pieces of metal, a nut is screw and secured tightly onto the metal
+
+Ergonomics
+Overview:
+The ergonomics and anthropometrics of my product are important as they dictate how comfortable it is to use, controlling how likely they are to recommend it to others. To do this, I will take measurements from my client and use this anthropometric data to design a produce which is somewhat easy to build, understand and learn from. I need not only take into account o the robot physically feels when building it but also how loud it is when running, how understandable the instructions/videos are.
+Physical Ergonomics:
+This is the aspect of the product which the user will physically interact with. Hence, the product must not consist of any sharp corners, the surfaces must be smooth. To keep the surfaces smooth, I will sand the surfaces using gradually increasing grits of sandpaper and use counterboxed nuts and bolts to maintain this smoothness throughout the robot. It should also be easy to transport thus be light. In addition, the robot should also not be extremely loud. This is an important aspect of the robot as often electronic parts can make lots of noise such as magnetic noise (the noise which motors make due to their internals) so to reduce this will make the kit hugely more bearable.
+Cognitive ergonomics:
+This aspect of the product refers to how the product is perceived. This includes details such as the clarity of the instructions, how the code is presented and how concepts are explained. As an educational kit, this will be one of the most important aspects as without clarity, the box would be a bunch of parts.
+
+Area
+Specific Point
+Aesthetics
+1.1: My product should look like a unique robot but based on something real in order to intrigue the audience for which this product is targeted for
+
+1.2: The colours of the product will be bright and vibrant to encourage creativity and problem solving.
+Packaging
+2.1: The budget will be QAR 150 as it is a main priority of my product is that it is cheap to reach as many students as possible.
+
+2.2: I want to price my product at QAR 200 as it is at price low enough to be affordable but still high enough to make the product high quality.
+Client
+3.1 My client is Faris Tarraf as he already has a keen interest in robotics however, is unable to participate in competitions due to his location.
+
+3.2: My wider target market is children and teenagers as they are often building  their interests during this time and are often the main target for large competitions..
+
+3.3: Ideally, my product would be sold on amazon and would work with school to possibly integrate it into the curriculum or as a CCA  as it allows the product to reach the widest target audience.
+Environment
+4.1: My product will try to reduce the amount of negative effects it will have on the environment by using much eco-friendly materials as possible as this will make consumers more likely to buy the product. 
+4.2: Due to the use of electronics, they product as a whole will not be recyclable. However, the use of PLA permits the main body to be recycled and the electrons to be reused..
+Size
+5.1: When built, the product will be around 20cm x 20cm by 20cm so it can be held in the hand and can be worked on easily.
+Safety
+6.1:The final product will have secure wire connections, protected electronics and double insulation. This ensures that it is able to get the CE and Kitemark stickers. Furthermore, it will not have sharp corners and will use less than 12V, 
+Function
+7.1: The kit will be able to educate the user on basic and advanced engineering and robotics concepts such as different types of gears, CPG gaits and Extended Kalman FIlters..
+Materials
+8.1: The body will be made of PLA and the electronic will be outsourced, most likely using arduino parts.. As it is cheap and easy to prototype with and the arduino should not quickly degrade.  
+
+8.2: A matte finish will be applied onto the body. This is to minimise the warping of the body in high temperatures and provides a smooth finish.
+User Requirements
+9.1: It must be a programmable, cheap and slightly difficult to assemble as to encourage the user to utilise their own critical thinking to solve problems on their own.
+
+9.2: I will try to keep the wants integrated to a minimum to reduce costs.
+Maintenance
+10.1: The product should not require maintenance as once its built, the user should have understood all of the concepts. Once this has happened the product has completed its mission.
+Ergonomics
+
+11.1: The corners will be chamfered and the screws will be easily accessible so that everyone, no matter their hand size, can build it..
+Manufacturing
+12.1: Most of the product will be 3d printed or laser cut and secured together with Metal nuts and bolts. I may include some wooden panels as well. This allows for more modularity of the robot and the undoing of steps.
+Product Lifespan
+13.1 The product should last about a year
+ at the least.
+
+13.2: Once used, the 3d printed body can be thrown away and the arduino could be used to make other projects.
+Packaging
+14.1: The product will require packaging as it will be quite delicate with all of the loose electrical components being fragile.
+
+ Kit for a line following robot
+ Kit for a 2-wheel balancing robot
+ Kit for a robotic arm
+ Kit for an Environmental Monitoring robot
+
+ Kit for a maze solver robot
+ Kit full of separate mechanisms
+ Kit for automatic light switch and curtains
+ Kit for an electronic leveler
+
+ Kit for a colour tracking arm
+ Kit for a tank drive robot with odometry
+ Kit for a inverted pendulum
+ Kit for a bipedal robot
+
+Idea
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+Total
+1
+5
+4
+4
+5
+3
+5
+4
+5
+3
+5
+5
+5
+5
+4
+62
+2
+5
+4
+4
+5
+5
+4
+5
+3
+5
+3
+4
+4
+5
+5
+61
+3
+4
+5
+4
+3
+4
+3
+3
+3
+4
+5
+4
+4
+4
+3
+53
+4
+4
+4
+3
+5
+5
+4
+3
+5
+4
+5
+5
+4
+5
+3
+59
+5
+3
+5
+5
+3
+5
+4
+3
+4
+5
+5
+4
+5
+3
+5
+59
+6
+5
+4
+3
+4
+4
+3
+3
+3
+3
+4
+5
+4
+3
+3
+51
+7
+4
+4
+4
+5
+3
+3
+3
+4
+5
+4
+5
+5
+3
+5
+57
+8
+5
+4
+3
+5
+4
+5
+3
+5
+5
+3
+5
+4
+5
+3
+59
+9
+4
+4
+4
+4
+3
+4
+4
+5
+5
+3
+3
+3
+4
+4
+54
+10
+3
+3
+4
+5
+5
+5
+5
+5
+4
+4
+5
+3
+5
+4
+60
+11
+4
+4
+4
+4
+5
+4
+3
+4
+5
+5
+5
+4
+4
+5
+60
+12
+4
+5
+5
+3
+5
+5
+4
+5
+5
+4
+5
+5
+3
+3
+61
+
+Line following robot
+The line following robot is a robot which is able to follow a black line against a white background. It uses 2 rear motors to drive the car and 2 sets of amni wheels to allow the car freedom of movement when turning. It uses a set of 3 IR sensors to detect the darkness of the ground below it. It was modeled after and F1 car and students can use it to learn about basic motor usage and how different sensors work.
+In Depth explanation of product
+Cardboard prototype of product
+CAD Render  of product
+Pros and cons
+Manufacturing process
+Client feedback
+1.1
+1.2
+2.1
+2.2
+3.1
+3.2
+3.3
+4.1
+4.2
+5.1
+6.1
+7.1
+8.1
+8.2
+9.1
+9.2
+10.1
+11.1
+12.1
+13.1
+13.2
+14.1
+The side pods make the car look like an F1 car
+Bushings reduce the friction between the axle and the hole.
+Dual set of omni wheel ensures that at least 1 side-roller is in contact with the ground, preventing increased wheel deterioration
+TT motors drive the back wheels
+The LN298 motor drivers and arduino are situated in the middle to make the physics of the car more similar to F1 cars
+IR sensors at the bottom detect changes in the colour of the floor which informs the arduino to turn.
+
+2 Wheel balancing bot
+The dual wheel balancing robot is a robot which is able to self align itself upright simply through acceleration of the bottom two wheels. This will be done through the collaboration between an Inertial measurement unit and the arduino. Despise the hardware, the user will have to learn about PIDF and feedback loops to stabilize the machine. This design also allows for more further development of the mechanism as it can be adapted for other uses such as a remote controlled car or an object movement system.
+In Depth explanation of product
+Cardboard prototype of product
+CAD Render  of product
+Pros and cons
+Manufacturing process
+Client feedback
+1.1
+1.2
+2.1
+2.2
+3.1
+3.2
+3.3
+4.1
+4.2
+5.1
+6.1
+7.1
+8.1
+8.2
+9.1
+9.2
+10.1
+11.1
+12.1
+13.1
+13.2
+14.1
+TT motor drive the body of the robot up by applying lateral motion different to the motion of the CoM
+MPU 6050 measure the rotational speed which can be converted into an absolute angle.
+The LN298 motor driver controls the motors direction and speed
+Using an arduino nano as the micro controller as it is powerful enough for this application and its small form factor makes it ideal for this size
+
+Bipedal Robot 
+The concept for this prototype is to act as a racing robot through its freedom of movement. Due to its strong base motors, the robot will be able to sprint along straight but the individual vertical freedom on each leg allows the robot to tilts into corners. Not only this, the robot will be able to ride across terrains without being tipped over. It is through this freedom from which we can teach the users about feedback loops such as PIDF and 
+Cardboard prototype of product
+CAD Render  of product
+Pros and cons
+Manufacturing process
+Client feedback
+1.1
+1.2
+2.1
+2.2
+3.1
+3.2
+3.3
+4.1
+4.2
+5.1
+6.1
+7.1
+8.1
+8.2
+9.1
+9.2
+10.1
+11.1
+12.1
+13.1
+13.2
+14.1
+An arduino uso is used as the microcontroller because it accepts a standard barrel jack connector with USB-B connectivity while maintaining an acceptable clock speed and RAM size
+The MPU 6050 is used as an IMU for the robot.Since it contains both 
+
+Colour tracking turret
+The colour tracking turret is able to autonomously use a camera connected to an arduino to detect a certain colour and follow that colour around using a main servo controlling 𝝓 and a secondary servo controlling 𝜽 in a 3d polar coordinate system.
+In Depth explanation of product
+Cardboard prototype of product
+CAD Render  of product
+Pros and cons
+Manufacturing process
+Client feedback
+1.1
+1.2
+2.1
+2.2
+3.1
+3.2
+3.3
+4.1
+4.2
+5.1
+6.1
+7.1
+8.1
+8.2
+9.1
+9.2
+10.1
+11.1
+12.1
+13.1
+13.2
+14.1
+The whole dome rests on a lazy susan bearing. This allows the whole dome to rotate instead of just the camera
+A Heavy base is used to prevent the motor from moving the base instead of the dome
+Camera searches for the largest blob of orange in its view
+All electronics will be bolted onto the  platform to prevent parts from moving when they don't have to.
+
+Proposed Solution
+
+The concept for this prototype is to act as a racing robot through its freedom of movement. Due to its strong base motors, the robot will be able to sprint along straight but the individual vertical freedom on each leg allows the robot to tilts into corners. Not only this, the robot will be able to ride across terrains without being tipped over. It is through this freedom from which we can teach the users about feedback loops such as PIDF and the link between maths and engineering through inverse kinematics
+Arduino
+IMU (mpu 5060)
+DC Drive Motor
+Motor Driver
+Platform for Electronics
+Servo leg piece control
+
+Presentation
+
+Changes from Design V1
+Case around arduino
+Remove sharp corners
+Rearrange the components 
+
+Developed Working Physical Prototype
+Group of Photos
+
+Prototype V1.5
+Changes made:
+Added support wheels for initial testing
+Added slot for battery
+
+Developed Prototype V2
+Changes made:
+Add hole in Lid for USB access
+Add holes for Pin access
+Allow for 2 batteries
+Countersink Screws
+Enlarge motor brackets space for tolerance
+
+Further research 
+PCB Design
+
+Allow for different boards to be mounted
+Maybe use a custom board
+Deciding between using LQR and PIDF
+PIDF vs LQR vs MPC
+Conclusion:
+Use STM32F4 for main processing and an esp32 for communications
