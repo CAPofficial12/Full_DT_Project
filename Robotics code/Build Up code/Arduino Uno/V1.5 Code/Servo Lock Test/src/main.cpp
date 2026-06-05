@@ -28,7 +28,8 @@ void loop() {
   brightness += multiplier;
   */
 
-  digitalWrite(5, HIGH);
+  analogWrite(5, 128);
+  delay(100);
 }
 
 void Lock_Servo(int angle){
