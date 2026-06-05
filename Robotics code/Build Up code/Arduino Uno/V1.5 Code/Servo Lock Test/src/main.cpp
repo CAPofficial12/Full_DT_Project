@@ -29,7 +29,6 @@ void loop() {
   */
 
   analogWrite(5, 128);
-  delay(100);
 }
 
 void Lock_Servo(int angle){
