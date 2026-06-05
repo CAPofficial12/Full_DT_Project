@@ -11,24 +11,16 @@ int multiplier = 1;
 void Lock_Servo(int);                                                                                       
 
 void setup() {
-  TopLeft.attach(5);
   TopRight.attach(6);
   BottomLeft.attach(9);
   BottomRight.attach(10);
+  pinMode(5, OUTPUT);
 }
 
 void loop() {
-  /*
-  if (brightness == 0){
-    multiplier = 40;
-  } else if(brightness == 255){
-    multiplier = -40;
-  }
-  digitalWrite(5, HIGH);
-  brightness += multiplier;
-  */
 
-  analogWrite(5, 128);
+  analogWrite(5, 100);
+  delay(1000);
 }
 
 void Lock_Servo(int angle){
