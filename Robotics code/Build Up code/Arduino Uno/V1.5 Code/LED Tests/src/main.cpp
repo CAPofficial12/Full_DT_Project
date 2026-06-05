@@ -7,14 +7,14 @@ void loop() {
 
   for (int fadeValue = 0 ; fadeValue <= 255; fadeValue += 5) {
     analogWrite(5, fadeValue);
-    delay(30);
+    delay(1000);
 
   }
 
 
   for (int fadeValue = 255 ; fadeValue >= 0; fadeValue -= 5) {
     analogWrite(5, fadeValue);
-    delay(30);
+    delay(1000);
 
   }
 }
