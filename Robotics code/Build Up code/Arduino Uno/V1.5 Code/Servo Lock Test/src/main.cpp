@@ -6,8 +6,11 @@ Servo TopRight;
 Servo BottomLeft;
 Servo BottomRight;
 
+int brightness = 0;
+int multiplier = 1;
+void Lock_Servo(int);                                                                                       
+
 void setup() {
-  // put your setup code here, to run once:
   TopLeft.attach(5);
   TopRight.attach(6);
   BottomLeft.attach(9);
@@ -15,13 +18,21 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  Lock_Servo(90);
+  /*
+  if (brightness == 0){
+    multiplier = 40;
+  } else if(brightness == 255){
+    multiplier = -40;
+  }
+  digitalWrite(5, HIGH);
+  brightness += multiplier;
+  */
+
+  digitalWrite(5, HIGH);
+  delay(100);
 }
 
 void Lock_Servo(int angle){
+  long long milli = map(angle, 0, 180, 0, 255);
   TopLeft.write(angle);
-  TopRight.write(angle);
-  BottomLeft.write(angle);
-  BottomRight.write(angle);
 }
