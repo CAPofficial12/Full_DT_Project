@@ -17,7 +17,9 @@ void setup() {
 }
 
 void loop() {
+  int angle = 90;
   Bottom(90);
+  PlatforM(45);
 }
 
 void PlatforM(int angle){
