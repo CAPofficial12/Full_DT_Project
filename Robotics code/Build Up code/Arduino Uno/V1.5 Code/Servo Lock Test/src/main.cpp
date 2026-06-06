@@ -7,6 +7,7 @@ Servo BottomLeft;
 Servo BottomRight;
 
 void PlatforM(int);                                                                            
+void Bottom(int);
 
 void setup() {
   TopLeft.attach(5);
@@ -16,10 +17,15 @@ void setup() {
 }
 
 void loop() {
-  PlatforM(90);
+  Bottom(90);
 }
 
 void PlatforM(int angle){
   TopRight.write(angle);
   TopLeft.write(180-angle);
+}
+
+void Bottom(int angle){
+  BottomLeft.write(angle);
+  BottomRight.write(180-angle);
 }
