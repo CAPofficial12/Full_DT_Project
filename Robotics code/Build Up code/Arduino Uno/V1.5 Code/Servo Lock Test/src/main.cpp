@@ -10,15 +10,15 @@ void PlatforM(int);
 void Bottom(int);
 
 void setup() {
-  TopLeft.attach(9);
+  TopLeft.attach(10);
   TopRight.attach(6);
-  BottomLeft.attach(3);
+  BottomLeft.attach(9);
   BottomRight.attach(5);
 }
 
 void loop() {
-  PlatforM(60);
-  Bottom(45);
+  PlatforM(90);
+  Bottom(90);
 }
 
 void PlatforM(int angle){
