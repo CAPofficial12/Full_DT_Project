@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include <ESP32Servo.h>
 
-const int BottomLeftPin = 23;
-const int BottomRightPin = 22;
+const int BottomLeftPin = 17;
+const int BottomRightPin = 5;
 
 Servo BottomLeft;
 Servo BottomRight;

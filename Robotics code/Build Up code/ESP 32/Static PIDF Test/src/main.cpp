@@ -14,6 +14,14 @@ const int TopLeftPin = 21;
 Servo TopRight;
 const int TopRightPin = 20;
 
+//Setting up motors
+#define enA 1
+#define enB 2
+#define in1 3
+#define in2 4
+#define in3 5
+#define in4 6
+
 
 void setup() {
   // Sets up timers
@@ -33,10 +41,17 @@ void setup() {
   BottomRight.attach(BottomRightPin, 500, 2500); 
   TopLeft.attach(TopLeftPin, 500, 2500);
   TopRight.attach(TopRightPin, 500, 2500); 
+
+  //Setup Motor intial direction
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
 }
 
 void loop() {
-  Platform(45);
+  Platform(45); // TODO: Test which angles work best
   Top(90);
 
 
