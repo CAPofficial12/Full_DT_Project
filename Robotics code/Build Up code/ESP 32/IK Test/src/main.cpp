@@ -2,9 +2,24 @@
 #include <vector>
 #include <math.h>
 #include <cmath>
+
 #include <Arduino.h>
 #include <ESP32Servo.h>
 using namespace std;
+
+
+//Servos
+Servo BottomLeft;
+const int BottomLeftPin = 23;
+
+Servo BottomRight;
+const int BottomRightPin = 22;
+
+Servo TopLeft;
+const int TopLeftPin = 21;
+
+Servo TopRight;
+const int TopRightPin = 20;
 
 // Arm Lengths
 double l1 = 1;
@@ -16,11 +31,34 @@ void print(vector<double> rec);
 vector<double> Polar();
 
 void setup(){
+   // Sets up timers
+  ESP32PWM::allocateTimer(0);
+  ESP32PWM::allocateTimer(1);
+  ESP32PWM::allocateTimer(2);
+  ESP32PWM::allocateTimer(3);
 
+
+  //Sets up Servo frequency
+  BottomLeft.setPeriodHertz(50);
+  BottomRight.setPeriodHertz(50);
+  TopLeft.setPeriodHertz(50);
+  TopRight.setPeriodHertz(50);
+
+  //Attaches Servos to their repective mins and configures frequency
+  BottomLeft.attach(BottomLeftPin, 500, 2500);
+  BottomRight.attach(BottomRightPin, 500, 2500); 
+  TopLeft.attach(TopLeftPin, 500, 2500);
+  TopRight.attach(TopRightPin, 500, 2500); 
 }
 
 void loop(){
+  vector<double> angles = Polar(5,5);
+  double PWM_conversion = 2000/180;
+  int Signal1 = angles[0] * PWM_conversion + 500;
+  int Signal2 = angles[1] * PWM_conversion + 500;
 
+  BottomLeft.write(Signal1);
+  TopLeft.write(Signal2);
 }
 
 vector<double> Polar(double x, double y){
