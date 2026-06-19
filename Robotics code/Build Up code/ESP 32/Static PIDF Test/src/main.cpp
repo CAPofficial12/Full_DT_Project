@@ -23,11 +23,20 @@ const int TopRightPin = 20;
 #define in4 6
 
 //Set up PIDF
+unsigned long start = 0;
+int lastError = 0;
 
 float Kp = 0;
 float Ki = 0;
 float Kd = 0;
 float Kf = 0;
+
+//Forward decalertion of functions
+void Platform(int angle);
+void Top(int angle);
+double PIDF(int target, int current);
+int IMU_TILT();
+void motors(int PWM);
 
 void setup() {
   // Sets up timers
@@ -57,16 +66,13 @@ void setup() {
   digitalWrite(in4, LOW);
 }
 
-void PIDF(int target, int current){
-  double error = target - current;
-  double dt;
-}
-
 void loop() {
   Platform(45); // TODO: Test which angles work best
   Top(90);
 
-
+  int tilt = IMU_TILT();
+  float power = PIDF(0, tilt);
+  motors(power);
 }
 
 void Platform(int angle){
@@ -77,4 +83,46 @@ void Platform(int angle){
 void Top(int angle){
   TopLeft.write(angle);
   TopRight.write(180 - angle);
+}
+
+double PIDF(int target, int current){
+  double error = target - current;
+
+  double dt = micros() - start;
+  double derivative = (error - lastError) / dt;
+
+  double output = Kp * error + Kd* derivative + 45 * Kf;
+  lastError = error;
+  start = micros();
+
+  return output;
+}
+
+int IMU_TILT(){
+  return 0;
+}
+
+void motors(float PWM){
+
+  //Caps PWM at 1
+  if (abs(PWM) > 1){
+    PWM /= abs(PWM);
+  }
+
+  //Control Motor Direction
+  if(PWM > 0){
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, HIGH);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, HIGH);
+  } else if (PWM < 0){
+      digitalWrite(in1, HIGH);
+      digitalWrite(in2, LOW);
+      digitalWrite(in3, HIGH);
+      digitalWrite(in4, LOW);
+  }
+
+  //Sets motor speed to TT motors
+  ledcWrite(enA, PWM);
+  ledcWrite(enB, PWM);
 }
