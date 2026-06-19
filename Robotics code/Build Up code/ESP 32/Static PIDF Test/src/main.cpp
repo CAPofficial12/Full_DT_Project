@@ -22,6 +22,12 @@ const int TopRightPin = 20;
 #define in3 5
 #define in4 6
 
+//Set up PIDF
+
+float Kp = 0;
+float Ki = 0;
+float Kd = 0;
+float Kf = 0;
 
 void setup() {
   // Sets up timers
@@ -29,6 +35,7 @@ void setup() {
   ESP32PWM::allocateTimer(1);
   ESP32PWM::allocateTimer(2);
   ESP32PWM::allocateTimer(3);
+
 
   //Sets up Servo frequency
   BottomLeft.setPeriodHertz(50);
@@ -48,6 +55,11 @@ void setup() {
 
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
+}
+
+void PIDF(int target, int current){
+  double error = target - current;
+  double dt;
 }
 
 void loop() {
