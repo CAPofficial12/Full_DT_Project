@@ -94,6 +94,12 @@ void setup(){
   Serial.print("ESP32 IPv6 address: ");
   Serial.println(WiFi.localIPv6());
 
+  if (!MDNS.begin("myhome")) {
+    Serial.println("mDNS failed");
+  } else {
+    Serial.println("mDNS started: http://myhome.local/");
+  }
+
   configTime(GMT_offset, DST_offset, ntpserver);
 
   Serial.println("Syncing time...");
