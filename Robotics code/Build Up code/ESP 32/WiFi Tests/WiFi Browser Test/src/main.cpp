@@ -17,6 +17,7 @@ const long DST_offset = 0;
 
 // Web Server
 WebServer server(80);
+String mDNS = "time";
 
 String formatTimeNow(){
   struct tm timeinfo;
@@ -32,7 +33,8 @@ String formatTimeNow(){
 }
 
 void handleRoot() {
-  String html = R"rawliteral(
+  // Smooth updates: page loads once, then fetches /time every second
+  String page = R"rawliteral(
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,25 +44,25 @@ void handleRoot() {
   <style>
     body { font-family: Arial, sans-serif; margin: 24px; }
     .card { padding: 16px; border: 1px solid #ddd; border-radius: 12px; max-width: 420px; }
-    #t { font-size: 1.6rem; font-weight: 700; }
-    .small { color: #666; margin-top: 8px; }
+    #clock { font-size: 1.8rem; font-weight: 700; margin-top: 8px; }
+    .small { color: #666; margin-top: 10px; }
   </style>
 </head>
 <body>
   <div class="card">
     <div>Current time:</div>
-    <div id="t">Loading...</div>
-    <div class="small">Updates every second</div>
+    <div id="clock">Loading...</div>
+    <div class="small">Updates every second • Served by ESP32</div>
   </div>
 
   <script>
-    async function updateTime(){
-      try{
+    async function updateTime() {
+      try {
         const r = await fetch('/time', { cache: 'no-store' });
-        const text = await r.text();
-        document.getElementById('t').textContent = text;
-      } catch(e){
-        document.getElementById('t').textContent = 'Error';
+        const t = await r.text();
+        document.getElementById('clock').textContent = t;
+      } catch (e) {
+        document.getElementById('clock').textContent = 'Error getting time';
       }
     }
     updateTime();
@@ -70,7 +72,7 @@ void handleRoot() {
 </html>
 )rawliteral";
 
-  server.send(200, "text/html", html);
+  server.send(200, "text/html", page);
 }
 
 void handleTime(){
@@ -94,10 +96,12 @@ void setup(){
   Serial.print("ESP32 IPv6 address: ");
   Serial.println(WiFi.localIPv6());
 
-  if (!MDNS.begin("myhome")) {
+  if (!MDNS.begin(mDNS)) {
     Serial.println("mDNS failed");
   } else {
-    Serial.println("mDNS started: http://myhome.local/");
+    Serial.print("mDNS started: http://");
+    Serial.print(mDNS);
+    Serial.println(".local/");
   }
 
   configTime(GMT_offset, DST_offset, ntpserver);

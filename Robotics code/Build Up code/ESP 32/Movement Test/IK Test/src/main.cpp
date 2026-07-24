@@ -53,12 +53,13 @@ void setup(){
 
 void loop(){
   vector<double> angles = Polar(5,5);
+  vector<double> offset = {0,0};
   double PWM_conversion = 2000/180;
-  int Signal1 = angles[0] * PWM_conversion + 500;
-  int Signal2 = angles[1] * PWM_conversion + 500;
+  int Signal1 = (offset[0] + angles[0]) * PWM_conversion + 500;
+  int Signal2 = (offset[1] + angles[1]) * PWM_conversion + 500;
 
-  BottomLeft.write(Signal1);
-  TopLeft.write(Signal2);
+  BottomLeft.writeMicroseconds(Signal1);
+  TopLeft.writeMicroseconds(Signal2);
 }
 
 vector<double> Polar(double x, double y){
