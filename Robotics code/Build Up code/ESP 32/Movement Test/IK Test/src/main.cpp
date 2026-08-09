@@ -28,7 +28,7 @@ double l2 = 2;
 // Functions
 double Sum(double a, double b);
 void print(vector<double> rec);
-vector<double> Polar();
+vector<double> Polar(double x, double y);
 
 void setup(){
    // Sets up timers
@@ -52,9 +52,9 @@ void setup(){
 }
 
 void loop(){
-  vector<double> angles = Polar(5,5);
+  vector<double> angles = Polar(1,1);
   vector<double> offset = {0,0};
-  double PWM_conversion = 2000/180;
+  double PWM_conversion = 2000.0/PI*180.0;
   int Signal1 = (offset[0] + angles[0]) * PWM_conversion + 500;
   int Signal2 = (offset[1] + angles[1]) * PWM_conversion + 500;
 
@@ -63,31 +63,32 @@ void loop(){
 }
 
 vector<double> Polar(double x, double y){
-    double r = 0, theta = 0;
-    double ABC = 0, BAC = 0;
-    double a1 = 0, a2 = 0;
-    double num = 0, denom;
+    double r = sqrt(Sum(x, y));
 
-    r = sqrt(pow(x, 2) + pow(y,2));
-    theta = atan(y/x);
+    if (r > l1 + l2 || r < abs(l1 - l2)) {
+        return {};
+    }
 
-    num = Sum(l1, l2) - pow(r,2);
-    denom = (2*l1*l2);
-    ABC = PI - acos(num/denom);
+    double theta = atan2(y,x);
 
-    num  = Sum(l1, r) - pow(l2, 2);
-    denom = 2 * l1 * r;
-    BAC = -acos(num/denom);
+    
+    double theta2 = acos(
+        (Sum(x, y) - l1*l1 - l2*l2)
+        / (2*l1*l2)
+    );
 
-    a1 = BAC + theta;
-    a2 = ABC - (PI - a2) + PI;
+    double theta1 =
+        atan2(y, x)
+        - atan2(
+            l2 * sin(theta2),
+            l1 + l2 * cos(theta2)
+        );
 
-    vector<double> angles = {a1,a2};
-    return angles;
+    return {theta1, theta2};
 }
 
 double Sum(double a, double b){
-    return pow(a,2) + pow(b,2);
+    return a*a + b*b;
 }
 
 void print(vector<double> rec){
