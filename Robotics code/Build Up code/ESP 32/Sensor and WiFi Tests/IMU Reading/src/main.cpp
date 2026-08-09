@@ -62,7 +62,7 @@ void setup(void) {
   }
 
   //Sets filter
-  mpu.setFilterBandwidth(MPU6050_BAND_5_HZ);
+  mpu.setFilterBandwidth(MPU6050_BAND_260_HZ);
 
   //Check Filter bandwidth
   Serial.print("Filter bandwidth set to: ");
