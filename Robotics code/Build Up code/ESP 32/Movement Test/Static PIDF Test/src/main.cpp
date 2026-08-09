@@ -30,6 +30,7 @@ float Kp = 0;
 float Ki = 0;
 float Kd = 0;
 float Kf = 0;
+double integral = 0;
 
 //Forward decalertion of functions
 void Platform(int angle);
@@ -68,9 +69,8 @@ void setup() {
   pinMode(in4, OUTPUT);
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
-
-  ledcAttach(enA, 20000, 8);
-  ledcAttach(enB, 20000, 8);
+  
+  start = micros();
 }
 
 void loop() {
@@ -98,7 +98,8 @@ double PIDF(int target, int current){
   double dt = (micros() - start)/1000000.0;
   double derivative = (error - lastError) / dt;
 
-  double output = Kp * error + Kd* derivative +  * Kf;
+  integral += error *dt;
+  double output = Kp * error + Ki * integral + Kd * derivative + Kf;
   lastError = error;
   start = micros();
 
@@ -113,7 +114,7 @@ void motors(float PWM){
 
   //Caps PWM at 1
   PWM = constrain(PWM, -1.0f, 1.0f);
-  PWM =* 255;
+  PWM *= 255;
 
   //Control Motor Direction
   if(PWM > 0){
@@ -126,9 +127,14 @@ void motors(float PWM){
       digitalWrite(in2, LOW);
       digitalWrite(in3, HIGH);
       digitalWrite(in4, LOW);
+  } else{
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, LOW);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, LOW);
   }
 
   //Sets motor speed to TT motors
-  ledcWrite(enA, PWM);
-  ledcWrite(enB, PWM);
+  ledcWrite(enA, abs(PWM));
+  ledcWrite(enB, abs(PWM));
 }
