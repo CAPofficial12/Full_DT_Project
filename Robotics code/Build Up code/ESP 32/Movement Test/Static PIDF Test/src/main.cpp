@@ -24,7 +24,7 @@ const int TopRightPin = 20;
 
 //Set up PIDF
 unsigned long start = 0;
-int lastError = 0;
+float lastError = 0;
 
 float Kp = 0;
 float Ki = 0;
@@ -61,9 +61,16 @@ void setup() {
   //Setup Motor intial direction
   digitalWrite(in1, LOW);
   digitalWrite(in2, HIGH);
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
 
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
   digitalWrite(in3, HIGH);
   digitalWrite(in4, LOW);
+
+  ledcAttach(enA, 20000, 8);
+  ledcAttach(enB, 20000, 8);
 }
 
 void loop() {
@@ -88,10 +95,10 @@ void Top(int angle){
 double PIDF(int target, int current){
   double error = target - current;
 
-  double dt = micros() - start;
+  double dt = (micros() - start)/1000000.0;
   double derivative = (error - lastError) / dt;
 
-  double output = Kp * error + Kd* derivative + 45 * Kf;
+  double output = Kp * error + Kd* derivative +  * Kf;
   lastError = error;
   start = micros();
 
@@ -105,9 +112,8 @@ int IMU_TILT(){
 void motors(float PWM){
 
   //Caps PWM at 1
-  if (abs(PWM) > 1){
-    PWM /= abs(PWM);
-  }
+  PWM = constrain(PWM, -1.0f, 1.0f);
+  PWM =* 255;
 
   //Control Motor Direction
   if(PWM > 0){
