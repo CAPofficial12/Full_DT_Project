@@ -1,14 +1,15 @@
 #include <Arduino.h>
 
-const int enA = 1;
-const int enB = 2;
-const int in1 = 3;
-const int in2 = 4;
-const int in3 = 5;
-const int in4 = 6;
+// Shifted from 34/35 to valid output pins 14/12
+const int enA = 23; 
+const int enB = 22; 
 
-void setup(){
+const int in1 = 32;
+const int in2 = 33;
+const int in3 = 25;
+const int in4 = 26;
 
+void setup() {
   pinMode(enA, OUTPUT);
   pinMode(enB, OUTPUT);
   pinMode(in1, OUTPUT);
@@ -25,25 +26,9 @@ void setup(){
 void loop() {
   analogWrite(enA, 255);
   analogWrite(enB, 255);
-  delay(3000);
-
-  analogWrite(enA, 200);
-  analogWrite(enB, 200);
-  delay(3000);
-
-  analogWrite(enA, 150);
-  analogWrite(enA, 255);
-  delay(3000);
-
-  analogWrite(enA, 100);
-  analogWrite(enA, 255);
-  delay(3000);
-
-  analogWrite(enA, 50);
-  analogWrite(enA, 255);
-  delay(3000);
+  delay(1000);
 
   analogWrite(enA, 0);
-  analogWrite(enA, 0);
-  delay(3000);
+  analogWrite(enB, 0);
+  delay(1000);
 }

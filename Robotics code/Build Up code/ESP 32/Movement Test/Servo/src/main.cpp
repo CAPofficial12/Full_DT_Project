@@ -11,7 +11,7 @@ void setup() {
   ESP32PWM::allocateTimer(0);
   ESP32PWM::allocateTimer(1);
 
-  BottomLeft.setPeriodHertz(50); //Test at 333Hz
+  BottomLeft.setPeriodHertz(50);
   BottomRight.setPeriodHertz(50);
 
   BottomLeft.attach(BottomLeftPin, 500, 2500);
@@ -19,6 +19,12 @@ void setup() {
 }
 
 void loop() {
+  BottomLeft.write(0);
+  delay(1000);
   BottomLeft.write(90);
-  BottomRight.write(90);
+  delay(1000);
+  BottomLeft.write(180);
+  delay(1000);
+  BottomLeft.write(90);
+  delay(1000);
 }

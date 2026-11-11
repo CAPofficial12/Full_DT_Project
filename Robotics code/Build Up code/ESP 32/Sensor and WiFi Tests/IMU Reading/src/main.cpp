@@ -4,21 +4,21 @@
 #include <Wire.h>
 
 Adafruit_MPU6050 mpu;
-
+double time_p, time_c, dif;
+double ax, ay, az;
+double gx, gy, gz;
 void setup(void) {
   Serial.begin(115200);
-  while (!Serial)
-    delay(10); // will pause Zero, Leonardo, etc until serial console opens
+  Wire.begin(14, 27);
+
 
   Serial.println("Adafruit MPU6050 test!");
 
   // Try to initialize!
-  if (!mpu.begin()) {
+  while (!mpu.begin()) {
     Serial.println("Failed to find MPU6050 chip");
-    while (1) {
-      delay(10);
-    }
   }
+
   Serial.println("MPU6050 Found!");
 
   //Sets the ccelerometer Range
@@ -91,35 +91,47 @@ void setup(void) {
   }
 
   Serial.println("");
-  delay(100);
+  dif = 0;
 }
 
 void loop() {
   /* Get new sensor events with the readings */
+  time_p = micros();
   sensors_event_t a, g, temp;
   mpu.getEvent(&a, &g, &temp);
 
+  ax += a.acceleration.x;
+  ay += a.acceleration.y;
+  az += a.acceleration.z;
+  gx += g.gyro.x;
+  gy += g.gyro.y;
+  gz += g.gyro.z;
+
   /* Print out the values */
-  Serial.print("Acceleration X: ");
-  Serial.print(a.acceleration.x);
+  Serial.print(">Acceleration X: ");
+  Serial.print(ax);
   Serial.print(", Y: ");
-  Serial.print(a.acceleration.y);
+  Serial.print(ay);
   Serial.print(", Z: ");
-  Serial.print(a.acceleration.z);
+  Serial.print(az);
   Serial.println(" m/s^2");
 
-  Serial.print("Rotation X: ");
-  Serial.print(g.gyro.x);
+  Serial.print(">Rotation X: ");
+  Serial.print(gx);
   Serial.print(", Y: ");
-  Serial.print(g.gyro.y);
+  Serial.print(gy);
   Serial.print(", Z: ");
-  Serial.print(g.gyro.z);
+  Serial.print(gz);
   Serial.println(" rad/s");
 
-  Serial.print("Temperature: ");
+  Serial.print(">Temperature: ");
   Serial.print(temp.temperature);
-  Serial.println(" degC");
+  Serial.print(" degC");
+
+  Serial.print(", Time");
+  Serial.print(micros()/100000);
+  Serial.println("/s");
 
   Serial.println("");
-  delay(500);
+  dif = (micros() - time_p)/1000000;
 }
